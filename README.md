@@ -1,14 +1,14 @@
 # PAGE-REPLACEMENT-ALGORITHMS
 
-## AIM: To implement FIFO page replacement technique.
+### AIM: To implement FIFO page replacement technique.
    a) FIFO b) LRU c) OPTIMAL
-## DESCRIPTION:
+### DESCRIPTION:
 Page replacement algorithms are an important part of virtual memory management and it helps the 
 OS to decide which memory page can be moved out making space for the currently needed page. 
 However, the ultimate objective of all page replacement algorithms is to reduce the number of 
 page faults.
 
-### FIFO
+## FIFO
 
 This is the simplest page replacement algorithm. In this algorithm, the operating system 
 keeps track of all pages in the memory in a queue, the oldest page is in the front of the queue. 
